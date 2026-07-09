@@ -1,0 +1,9 @@
+CREATE DATABASE studentdb;
+
+create table student(id SERIAL PRIMARY KEY, name TEXT, address TEXT, age INT, number TEXT);
+
+insert into student (name, address, age, number)
+values ('John', 'Texas', 34, '1234567890');
+
+insert into student (name, address, age, number)
+values ('Rob', 'NY', 29, '354665788');
